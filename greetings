@@ -1,0 +1,11 @@
+def Start():
+    print("\n")
+    UserName = input(" Enter your name: ")
+    print("\n")
+    print(f"Welcome {UserName} to the application!")
+    return UserName
+
+
+def End(UserName):
+    print("\n")
+    print(f"Thank You for using the application {UserName}.  :) ")
